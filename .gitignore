@@ -1,0 +1,16 @@
+node_modules
+dist
+.venv
+__pycache__
+*.pyc
+.env
+.DS_Store
+
+# Local durable project database
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Test caches
+.pytest_cache/
